@@ -48,35 +48,21 @@ This project implements custom versions of the standard C library functions `ato
 | "." | 0.000000 |
 | "abc" | 0.000000 |
 
-## Sample Output
 === my_atoi() tests ===
-
 my_atoi("123") = 123
-
 my_atoi("   -456") = -456
-
 my_atoi("+789") = 789
-
 my_atoi("	0") = 0
-
 my_atoi("   42abc") = 42
-
 my_atoi("-") = 0
-
 my_atoi("+") = 0
-
 my_atoi("abc") = 0
 
 === my_atof() tests ===
-
 my_atof("123.45") = 123.450000
-
 my_atof("  -67.89") = -67.890000
-
 my_atof("+0.123") = 0.123000
-
 my_atof("	000.456") = 0.456000
-
 my_atof("3.14159abc") = 3.141590
 my_atof("-.5") = -0.500000
 my_atof(".") = 0.000000
